@@ -26,6 +26,8 @@ start:
 	mov edx, 0
 	
 	while_loop : 
+		mov dx, 0
+		
 		div bx				 
 		cmp dx, 1			
 		jne not_equal		
@@ -34,7 +36,7 @@ start:
 		
 		not_equal :
 		
-		cmp al, 0			
+		cmp ax, 0			
 		jne while_loop
 	
 	mov one_bits, cx
