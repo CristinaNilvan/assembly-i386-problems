@@ -1,1 +1,1 @@
-# assembler-i386-algorithmic-problems
+# assembly-i386-algorithmic-problems
