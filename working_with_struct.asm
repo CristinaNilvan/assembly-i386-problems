@@ -15,9 +15,9 @@ Employee ends
 
 number_of_employees dw 4
 employees Employee 	{"Georgescu", 100}, 
-					{"Pop", 100},
-					{"Popescu", 300}, 
-					{"Ionescu", 450}
+			{"Pop", 100},
+			{"Popescu", 300}, 
+			{"Ionescu", 450}
 total_sum dw 0
 
 .code
