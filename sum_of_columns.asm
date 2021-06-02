@@ -12,8 +12,8 @@ n_constant equ 3
 n dd 3 
 
 matrix dd 1, 2, 3
-		dd 4, 5, 6
-		dd 7, 8, 9
+	dd 4, 5, 6
+	dd 7, 8, 9
 		
 sum_of_columns dd 0
 
