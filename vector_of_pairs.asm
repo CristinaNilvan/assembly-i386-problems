@@ -22,6 +22,7 @@ result dd 30 dup (0)
 
 .code
 start:
+	;This program takes a vector of pairs of numbers and puts the sum of the pair in another vector.
 	
 	mov ecx, 0
 	mov esi, 0
